@@ -135,3 +135,9 @@ body {
     font-size: 7px;
     opacity: 90%;
 }
+
+@media (max-width: 800px) {
+    .content {
+        flex-direction: column;
+    }
+}
